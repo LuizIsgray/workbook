@@ -7,14 +7,31 @@
 body {
   font-family: arial;
   background-image: url('../MEDIA/bg.png');
+  background-attachment: fixed;
+}
+
+h1{
+  width        : 100%;
+    background   : rgba(0, 0, 0, .4);
+    padding      : 20px;
+    text-align   : center;
+    margin       : 0 auto;
+    margin-bottom   : 2%;
+    color        : white;
+    font-family  : 'Century Gothic', sans-serif;
+    border-radius: 15px;
+  font-size     : 40px;
+    letter-spacing: 4px;
+    font-weight   : 100;
+    margin        : 30px 0 20px;
 }
 
 .formulario-login {
   width: 400px;
-  height: 340px;
+  height: 50%;
   background: #4e4d4d;
   margin: auto;
-  margin-top: 180px;
+  margin-top: 40px;
   box-shadow: 7px 13px 37px #000;
   padding: 20px 30px;
   border-top: 4px solid #017bab;

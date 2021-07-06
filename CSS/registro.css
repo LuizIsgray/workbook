@@ -6,6 +6,7 @@
 
 body {
   background-image: url('../MEDIA/fondo.jpg');
+  background-attachment: fixed;
 }
 
 #aviso{
