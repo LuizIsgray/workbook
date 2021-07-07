@@ -2,12 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Crear Publicacion Normal</title>
+        <title>Crear Publicación de Emergencia</title>
         <link rel="stylesheet" href="CSS/emergencia.css">
     </head>
     <body>
         <section class="form-emergencia">
-            <h4>Publicacion de EMERGENCIA</h4>
+            <p><a href="publicaciones.html">Volver</a></p>
+            <h4>Crear publicación de <i>EMERGENCIA</i></h4>
             <input class="controls" type="text" name="nom_publicacion" id="publicacion" placeholder="Coloca el titulo la publicacion">
             <p class="sub">Servicio requerido: </p> 
         <select class="controls" name="tipo">
@@ -19,12 +20,11 @@
             <option>Limpieza de hogar</option>
             <option>Jardineria</option><br/><br>
         </select>
-        <p class="sub">Indica el dia que requieres el servicio:</p>
-        <input class="controls" type="date" name="fecha_requerida" id="fecha" ><br/><br/>
-        <input class="controls" type="text" name="hora" id="hora" placeholder="Coloca la hora que requieres el servicio">
+        <p class="sub">Indica la <i>Fecha</i> y <i>Hora</i> en que requieres el servicio:</p>
+        <input class="controls" type="datetime-local" name="fecha_hora_requerido" id="fecha_hora_requerido" placeholder="Coloca la hora que requieres el servicio">
         <p class="sub">Agrega una breve descripcion:</p><br>
             <textarea class="controls" name="descripcion" cols="70" rows="5"></textarea><br><br>
-            <input class="botons" type="submit" value="Crear publicacion">
-            <input class="botons" type="reset" value="Cancelar creacion">
+            <input class="botons" type="submit" value="Crear publicación">
+            <a href="publicaciones.html">Crear publicación</a>
         </section>
     </body>

@@ -10,9 +10,6 @@ body {
   margin : 0;
 }
 
-p {
-  margin-bottom: 20px;
-}
 
 .menu {
   width   : 80%;
@@ -70,6 +67,52 @@ nav ul li:hover {
   padding-top: 80px;
 }
 
+.principal article{
+  background       : url('../MEDIA/fondo.jpg');
+  height           : 150px;
+  background-size  : cover;
+  background-repeat: no-repeat;
+  margin-bottom    : 10px;
+  font-size  : 50px;
+  font-weight: bold;
+  text-align: center;
+  color          : white;
+  text-decoration: none;
+  padding        : 20px;
+  border-style: dashed;
+  border-radius  : 30px;
+  font-size      : 30px;
+  margin         : 30px;
+}
+
+.principal article .contenido{
+  background       : url('../MEDIA/bg.png');
+  font-size  : 20px;
+  font-weight: bold;
+  text-align: justify;
+  color          : white;
+  text-decoration: none;
+  padding        : 20px;
+  border-style: double;
+  border-radius  : 30px;
+}
+.principal ul {
+  list-style: none;
+  font-size  : 20px;
+}
+
+.principal ul li {
+  display: inline-block;
+}
+
+.principal ul li a {
+  color     : white;
+  display   : block;
+}
+
+.principal ul li a:hover {
+  color    : #b9b9b9;
+}
 
 
 

@@ -60,3 +60,13 @@ body {
     font-size: 18px;
     line-height: 40px;
 }
+
+.form-estado a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-estado a:hover {
+    color: white;
+    text-decoration: underline;
+  }
