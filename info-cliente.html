@@ -2,13 +2,13 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Registro como Prestador de Servicios</title>
+  <title>Actualizar Información</title>
   <link rel="stylesheet" href="CSS/registro.css">
 </head>
 <body>
   <section class="formulario-registro">
-    <p><a href="registro.html">Volver</a></p>
-    <h4>Registro como Prestador de Servicios</h4>
+    <p><a href="index-cliente.html">Volver</a></p>
+    <h4>Actualizar Información <i>Cliente</i></h4>
     <p id="aviso">* Datos obligatorios</p>
     <h3>Datos Personales</h3>
     <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre *">
@@ -18,17 +18,24 @@
     <h2>Ingrese su Fecha de nacimiento *<h2>
     <input class="controls" type="date" name="fecha_nacimiento" id="fecha_nacimiento">
     
+    <h3>Datos de Domicilio</h3>
+    <input class="controls" type="text" name="codigo_postal" id="codigo_postal" placeholder="Ingrese su Codigo postal *">
+    <input class="controls" type="text" name="calle" id="calle" placeholder="Ingrese su Calle *">
+    <input class="controls" type="text" name="numero_exterior" id="numero_exterior" placeholder="Ingrese su Número exterior *">
+    <input class="controls" type="text" name="numero_interior" id="numero_interior" placeholder="Ingrese su Número interior">
+    <input class="controls" type="text" name="colonia" id="colonia" placeholder="Ingrese su Colonia *">
+    <input class="controls" type="text" name="ciudad" id="ciudad" placeholder="Ingrese su Ciudad *">
+    <input class="controls" type="text" name="estado" id="estado" placeholder="Ingrese su Estado *">
+    <input class="controls" type="text" name="punto-referencia" id="punto-referencia" placeholder="Ingrese un Punto de referencia *">
+    <input class="controls" type="text" name="fachada" id="fachada" placeholder="Ingrese como es la Fachada del Domicilio">
+
     <h3>Datos de Usuario</h3>
-    <input class="controls" type="email" name="servicio_ofrecido" id="servicio_ofrecido" placeholder="Ingrese el Servicio que ofrece *">
     <input class="controls" type="email" name="correo_e" id="correo_e" placeholder="Ingrese su Correo *">
     <input class="controls" type="password" name="contrasena" id="contrasena" placeholder="Ingrese una Contraseña *">
     <input class="controls" type="password" name="contrasena_validar" id="contrasena_validar" placeholder="Confirme su Contraseña *">
     <input class="controls" type="text" name="telefono" id="telefono" placeholder="Ingrese su Número celular *">
-    <p><a href="#">Terminos y Condiciones</a></p>
-    <input class="boton-registrar" type="submit" value="Registrar">
-    <p><a href="login.html">Registrar</a></p>
-    
-    <p><a href="login.html">Ya tengo cuenta</a></p>
+    <input class="boton-registrar" type="submit" value="Actualizar Información">
+    <p><a href="login.html">Actualizar Información</a></p>
   </section>
 
 </body>
