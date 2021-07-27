@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro como Cliente</title>
+    <link rel="stylesheet" href="CSS/registro.css">
+</head>
+
+<body>
+    <section class="formulario-registro">
+        <form action="PHP/form-registro-cliente.php" method="post">
+            <p><a href="registro.html">Volver</a></p>
+            <h4>Registro como Cliente</h4>
+            <p id="aviso">* Datos obligatorios</p>
+            <h3>Datos Personales</h3>
+            <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre *">
+            <input class="controls" type="text" name="apellido_paterno" id="apellido_paterno" placeholder="Ingrese su Apellido Paterno *">
+            <input class="controls" type="text" name="apellido_materno" id="apellido_materno" placeholder="Ingrese su Apellido Materno *">
+            <h2>Ingrese su Sexo:</h2>
+                <select name="sexo">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Sin Especificar">No especificar</option>
+                </select>
+            
+            <h2><br>Ingrese su Fecha de nacimiento *</h2>
+            <input class="controls" type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+
+            <h3>Datos de Domicilio</h3>
+            <input class="controls" type="number" name="codigo_postal" id="codigo_postal" placeholder="Ingrese su Codigo postal *">
+            <input class="controls" type="text" name="calle" id="calle" placeholder="Ingrese su Calle *">
+            <input class="controls" type="number" name="numero_exterior" id="numero_exterior" placeholder="Ingrese su Número exterior *">
+            <input class="controls" type="text" name="numero_interior" id="numero_interior" placeholder="Ingrese su Número interior">
+            <input class="controls" type="text" name="colonia" id="colonia" placeholder="Ingrese su Colonia *">
+            <input class="controls" type="text" name="ciudad" id="ciudad" placeholder="Ingrese su Ciudad *">
+            <input class="controls" type="text" name="estado" id="estado" placeholder="Ingrese su Estado *">
+            <input class="controls" type="text" name="punto_referencia" id="punto_referencia" placeholder="Ingrese un Punto de referencia *">
+            <input class="controls" type="text" name="fachada" id="fachada" placeholder="Ingrese como es la Fachada del Domicilio">
+
+            <h3>Datos de Usuario</h3>
+            <input class="controls" type="email" name="correo_e" id="correo_e" placeholder="Ingrese su Correo *">
+            <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese una Contraseña *">
+            <input class="controls" type="password" name="contraseña_validar" id="contraseña_validar" placeholder="Confirme su Contraseña *">
+            <input class="controls" type="tel" name="celular" id="celular" placeholder="Ingrese su Número celular *">
+            <p><a href="#">Terminos y Condiciones</a></p>
+            <input class="boton-registrar" type="submit" value="Registrar">
+            <p><a href="login.html">Registrar</a></p>
+        </form>
+
+        <p><a href="index.html">Ya tengo cuenta</a></p>
+    </section>
+
+</body>
+
+</html>

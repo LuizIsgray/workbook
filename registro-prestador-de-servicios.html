@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro como Prestador de Servicios</title>
+    <link rel="stylesheet" href="CSS/registro.css">
+</head>
+
+<body>
+    <section class="formulario-registro">
+        <form action="PHP/form-registro-prestador.php" method="post">
+            <p><a href="registro.html">Volver</a></p>
+            <h4>Registro como Prestador de Servicios</h4>
+            <p id="aviso">* Datos obligatorios</p>
+            <h3>Datos Personales</h3>
+            <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre *">
+            <input class="controls" type="text" name="apellido_paterno" id="apellido_paterno" placeholder="Ingrese su Apellido Paterno *">
+            <input class="controls" type="text" name="apellido_materno" id="apellido_materno" placeholder="Ingrese su Apellido Materno *">
+            <h2>Ingrese su Sexo *</h2>
+            <select name="sexo">
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Sin Especificar">No especificar</option>
+            </select>
+            <h2><br>Ingrese su Fecha de nacimiento *</h2>
+            <input class="controls" type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+
+            <h3>Datos de Servicio</h3>
+            <h2>Ingrese el Servicio que ofrece *</h2>
+            <select name="servicio_ofrecido">
+                <option value="Carpinteria">Carpinteria </option>
+                <option value="Plomeria">Plomeria</option>
+                <option value="Albañileria">Albañileria</option>
+                <option value="Electricista">Electricista</option>
+                <option value="Mecanica">Mecanica</option>
+                <option value="Limpieza de hogar">Limpieza de hogar</option>
+                <option value="Jardineria">Jardineria</option><br><br>
+            </select>
+            <h3><br>Datos de Usuario</h3>
+            <input class="controls" type="email" name="correo_e" id="correo_e" placeholder="Ingrese su Correo *">
+            <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese una Contraseña *">
+            <input class="controls" type="password" name="contraseña_validar" id="contraseña_validar" placeholder="Confirme su Contraseña *">
+            <input class="controls" type="tel" name="celular" id="celular" placeholder="Ingrese su Número celular *">
+            <p><a href="#">Terminos y Condiciones</a></p>
+            <input class="boton-registrar" type="submit" value="Registrar">
+        </form>
+
+        <p><a href="login.html">Ya tengo cuenta</a></p>
+    </section>
+
+</body>
+
+</html>
